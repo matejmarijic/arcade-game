@@ -8,6 +8,7 @@ without colliding into any one of the enemies. The player can move left, right, 
 in varying speeds on the block portion of the scene. Once a the player collides with an enemy, the game
 is reset and the player moves back to the start square. Once the player reaches the water the game is won.
 
+https://matejmarijic.github.io/arcade-game/.
 
 ## Controller
 
