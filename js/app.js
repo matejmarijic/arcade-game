@@ -57,7 +57,7 @@ Player.prototype.update = function() {
     this.x = 0;
   }
 
-  // Check for player reaching top of canvas and winning the game
+  // Check for player reaching top 
   if (this.y < 0) {
     this.x = 200;
     this.y = 380;
@@ -92,11 +92,10 @@ Player.prototype.handleInput = function(keyPress) {
 };
 
 // Now instantiate your objects.
-// Place all enemy objects in an array called allEnemies
-// Place the player object in a variable called player
+
 var allEnemies = [];
 
-// Position "y" where the enemies will are created
+// Position "y" where the enemies are created
 var enemyPosition = [60, 140, 220];
 var player = new Player(200, 380, 50);
 var enemy;
