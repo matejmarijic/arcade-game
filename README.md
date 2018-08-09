@@ -12,15 +12,13 @@ is reset and the player moves back to the start square. Once the player reaches 
 In order to play the game
 1.Step
 
-$ [sudo] git clone git@github.com:matejmarijic/arcade-game.git
+Download the repository
 
 2. Step
 
-$ [sudo] python -m SimpleHTTPServer
+open index folder in your web
 
-3. Step
 
-$ open "http://localhost:8000"
 
 ## Controller
 
