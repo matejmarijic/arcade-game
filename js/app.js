@@ -105,6 +105,9 @@ enemyPosition.forEach(function(posY) {
   allEnemies.push(enemy);
 });
 
+//Greskaaaaaa 
+document.addEventListener("touchstart", touchHandler);
+document.addEventListener("touchmove", touchHandler
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
 document.addEventListener('keyup', function(e) {
